@@ -1,0 +1,17 @@
+----------------------- Ubuntu ------------------------
+### NodeJS:
+    # Install
+        https://nodejs.org/en/download/current
+
+### npm:
+    # Install dependencies -> project
+        # Go to source (have file package.json): (~/Docs/Busmap/)
+        `$ npm install`
+
+    # (Ubuntu): change mode execute for node_package/./bin/next
+        `$ chmod + x node_package/./bin/next`
+
+    # Run project:
+        `$ npm run dev`
+
+-------------------------------------------------------

@@ -1,0 +1,156 @@
+/* [project]/src/app/styles/maincontent.css [app-client] (css) */
+.overview {
+  background: linear-gradient(145deg, #fff, #f9fafb);
+  border-radius: .5rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+.overview-header {
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.overview-header svg {
+  width: 28px;
+  height: 28px;
+  margin-top: 6px;
+  font-size: 1.2rem;
+}
+
+.overview h3 {
+  color: #1f2937;
+  margin-bottom: 1.25rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.filter-controls {
+  gap: .5rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+}
+
+.search-input {
+  border: 1px solid #d1d5db;
+  border-radius: .375rem;
+  width: 100%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  transition: border-color .2s, box-shadow .2s;
+}
+
+.search-input:focus {
+  border-color: #e5484d;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(246, 59, 59, .1);
+}
+
+.search-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #e5484d;
+  border: 1px solid #d1d5db;
+  border-radius: .375rem;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 36px;
+  padding: .5rem;
+  transition: background-color .2s, transform .2s;
+  display: flex;
+}
+
+.search-icon-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.search-icon-wrapper svg {
+  width: 16px;
+  height: 16px;
+  font-size: 1rem;
+}
+
+.search-btn:hover {
+  background-color: #bf3d41;
+  transform: translateY(-1px);
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #fff;
+  border-radius: .5rem;
+  width: 100%;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+  padding: .75rem;
+}
+
+th {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  background-color: #e5484d;
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+tr th:first-child {
+  border-top-left-radius: 12px;
+}
+
+tr th:last-child {
+  border-top-right-radius: 12px;
+}
+
+td {
+  color: #000;
+  font-size: .95rem;
+}
+
+tr:nth-child(2n) {
+  background-color: #f9fafb;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
+  transition: background-color .2s;
+}
+
+td.status {
+  padding: .75rem;
+}
+
+td.status > span {
+  text-align: center;
+  color: #fff;
+  border-radius: .15rem;
+  padding: .3rem .6rem;
+  font-size: .9rem;
+  font-weight: 500;
+  display: inline-block;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+td.status-Đang-trên-xe > span {
+  background-color: #10b981;
+}
+
+td.status-Đã-trả > span {
+  background-color: #3b82f6;
+}
+
+td.status-Chờ-đón > span {
+  background-color: #f59e0b;
+}
+
+/*# sourceMappingURL=src_app_styles_maincontent_a2ccbbc1.css.map*/
