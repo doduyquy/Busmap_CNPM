@@ -5,21 +5,25 @@
 
 ## Xóa node_modules khỏi git tracking (xóa khỏi git index (không phải source))
 
-    `git rm -r --cached node_modules`
+    git rm -r --cached node_modules
 
 ## Tạo file .gitignore (để đánh đấu những file nào sẽ ignore - không push lên GitHub)
 
-    - Đảm bảo có file .gitignore trong **root project** với nội dung (quan trọng nhất là node_modules/, để lần sau git không track lại thư mục này):
+- Đảm bảo có file .gitignore trong **root project** với nội dung (quan trọng nhất là node_modules/, để lần sau git không track lại thư mục này):
+
         ```
         node_modules/
         .next/
         dist/
         .env
-
         ```
-        1. Ở root dir:
-        `nano .gitignore`   
-        2. Paste to that file:
+  
+1. Ở root dir:
+
+        nano .gitignore
+
+2. Paste to that file:
+
         ```
         # Dependencies
         node_modules/
@@ -43,11 +47,10 @@
         .env
         .env.local
         .env.*.local
-
         ```
-        3. Then, add file *.gitignore* and commit &rarr; push to GitHub
-        
 
+3. Then, add file *.gitignore* and commit &rarr; push to GitHub
+        
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
