@@ -54,21 +54,25 @@
 ## (Vẫn lỗi) Dọn sạch toàn bộ lịch sử repo để xóa mọi dấu vết node_modules &rarr; *git-filter-repo*
 
 1. Cài đặt git-filter-repo
-
+    ```
     sudo apt install git-filter-repo
+    ```            
 
 - Win/Mac dùng: `pip install git-filter-repo`
 
 2. (Force) để rewrite history:
 
+    ```
     git filter-repo --path node_modules --invert-paths --force
+    ```
 
 3. Kiểm tra lại cấu hình remote (nếu mất thì add lại)
 
+    ```
     git remote -v
     git remote add origin https://github.com/doduyquy/Busmap_CNPM.git
     git push -u origin main
-
+    ```
 
 
 
