@@ -49,6 +49,27 @@ form {
 }
 
 
+
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
 .submit-btn svg {
   font-size: 1rem;
   width: 16px;
