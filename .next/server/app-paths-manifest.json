@@ -1,4 +1,14 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/assignment/page": "app/assignment/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/history/page": "app/history/page.js",
+  "/information/page": "app/information/page.js",
+  "/journey/page": "app/journey/page.js",
+  "/messaging/page": "app/messaging/page.js",
+  "/notification/page": "app/notification/page.js",
+  "/page": "app/page.js",
+  "/schedule/page": "app/schedule/page.js",
+  "/setting/page": "app/setting/page.js",
+  "/tracking/page": "app/tracking/page.js"
 }

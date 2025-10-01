@@ -1,0 +1,38 @@
+.notifications {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notifications h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+.notification-item {
+  padding: 10px;
+  border-left: 4px solid #3b82f6;
+  margin-bottom: 10px;
+  background-color: #f0f4f8;
+}
+
+.alert {
+  border-left: 4px solid #dc2626;
+  background-color: #fee2e2;
+}
+
+.contact-links {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-links a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}

@@ -1,27 +1,27 @@
 {
   "pages": {
     "/page": [
-      "static/chunks/node_modules_next_dist_8db7fb1f._.js",
-      "static/chunks/src_app_favicon_ico_mjs_243aa161._.js",
-      "static/chunks/[root-of-the-server]__981a3220._.css",
-      "static/chunks/node_modules_@fortawesome_fontawesome-svg-core_index_mjs_79b8db01._.js",
-      "static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_e676fced._.js",
-      "static/chunks/node_modules_76b46dd3._.js",
-      "static/chunks/src_app_admin_Navbar_c6c71386.js",
-      "static/chunks/src_app_layout_0a548d63.js",
-      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_3c948292.js",
-      "static/chunks/src_app_styles_maincontent_a2ccbbc1.css",
-      "static/chunks/src_app_ce662a0f._.js",
-      "static/chunks/src_app_page_3c948292.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_57d40746._.js",
-      "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js",
-      "static/chunks/node_modules_next_dist_compiled_5150ccfd._.js",
-      "static/chunks/node_modules_next_dist_client_cf1d9188._.js",
-      "static/chunks/node_modules_next_dist_b0daae9a._.js",
-      "static/chunks/node_modules_@swc_helpers_cjs_b3dc30d6._.js",
-      "static/chunks/_a0ff3932._.js",
-      "static/chunks/turbopack-_cdba956c._.js"
+      "static/chunks/3c30e_next_dist_61193830._.js",
+      "static/chunks/Desktop_Busmap_CNPM_src_app_favicon_ico_mjs_5a6dbbb2._.js",
+      "static/chunks/[root-of-the-server]__819d9dbe._.css",
+      "static/chunks/3c30e_@fortawesome_fontawesome-svg-core_index_mjs_514bade5._.js",
+      "static/chunks/3c30e_@fortawesome_free-solid-svg-icons_index_mjs_b4d8c7bb._.js",
+      "static/chunks/3c30e_b3cbd555._.js",
+      "static/chunks/Desktop_Busmap_CNPM_src_app_parent_Navbar_75028af7.js",
+      "static/chunks/Desktop_Busmap_CNPM_src_app_layout_f1669c16.js",
+      "static/chunks/3c30e_next_dist_client_components_builtin_global-error_807e20af.js",
+      "static/chunks/Desktop_Busmap_CNPM_src_app_styles_maincontent_7540ed9b.css",
+      "static/chunks/Desktop_Busmap_CNPM_src_app_726775f6._.js",
+      "static/chunks/Desktop_Busmap_CNPM_src_app_page_807e20af.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_dbeb27ef._.js",
+      "static/chunks/3c30e_next_dist_compiled_react-dom_ff432708._.js",
+      "static/chunks/3c30e_next_dist_compiled_next-devtools_index_343d86ff.js",
+      "static/chunks/3c30e_next_dist_compiled_36c36a99._.js",
+      "static/chunks/3c30e_next_dist_client_fa9de0c8._.js",
+      "static/chunks/3c30e_next_dist_89b29270._.js",
+      "static/chunks/3c30e_@swc_helpers_cjs_6d22de57._.js",
+      "static/chunks/Desktop_Busmap_CNPM_a0ff3932._.js",
+      "static/chunks/turbopack-Desktop_Busmap_CNPM_5d94c98b._.js"
     ]
   }
 }
