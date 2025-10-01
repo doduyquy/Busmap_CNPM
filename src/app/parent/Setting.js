@@ -1,7 +1,5 @@
 "use client";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus, faMinus, faStop } from '@fortawesome/free-solid-svg-icons';
 import '../styles/setting.css';
 import '../styles/globals.css';
 

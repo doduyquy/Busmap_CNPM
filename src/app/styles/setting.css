@@ -1,8 +1,8 @@
 .settings {
-  background: linear-gradient(145deg, #ffffff, #f9fafb);
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .settings h3 {
@@ -27,7 +27,7 @@
   border-radius: 5px;
 }
 
-.submit-btn {
+.settings .submit-btn {
   padding: 0.5rem 1rem;
   border: 1px solid #d1d5db;
   border-radius: 0.375rem;
@@ -74,18 +74,4 @@ p strong {
 .contact-links a:hover {
   color: #2563eb;
   text-decoration: underline;
-}
-
-.submit-btn {
-  padding: 0.5rem 1rem;
-  border: 1px solid #d1d5db;
-  border-radius: 0.375rem;
-  background-color: #3b82f6;
-  color: #ffffff;
-  cursor: pointer;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.95rem;
-  font-weight: 500;
-  transition: background-color 0.2s ease, transform 0.2s ease;
 }

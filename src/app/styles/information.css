@@ -38,7 +38,6 @@
 .student-avatar {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
   object-fit: cover;
   border: 3px solid #3b82f6;
   margin-bottom: 10px;
@@ -118,7 +117,6 @@ form {
   background-color: #3b82f6;
   color: #ffffff;
   cursor: pointer;
-  display: flex;
   align-items: center;
   gap: 0.5rem;
   font-size: 0.95rem;
